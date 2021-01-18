@@ -1,0 +1,96 @@
+.awssld {
+  width: 100vw;
+  height: calc(100vh - 25px);
+  overflow: visible;
+  z-index: 1;
+}
+
+.awssld__content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.awssld__content img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.awssld__bullets {
+  bottom: 25px;
+  z-index: 2;
+}
+
+.awssld__bullets button {
+  background: #fff;
+  opacity: 0.7;
+}
+
+.awssld__bullets .awssld__bullets--active {
+  background: #fff;
+  opacity: 0.9;
+}
+
+.awssld__controls {
+  /* --slider-transition-duration: 900ms; */
+  --slider-height-percentage: 60%;
+  --organic-arrow-thickness: 9px;
+  --organic-arrow-border-radius: 2px;
+  --organic-arrow-height: 45px;
+  --organic-arrow-color: #ffffff;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-opacity: 0.9;
+  --control-button-background: transparent;
+  --control-bullet-color: #fafafa;
+  --control-bullet-active-color: #d5d5d5;
+  --loader-bar-color: #ffffff;
+  --loader-bar-height: 7px;
+}
+
+.slider-overlay {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+}
+
+.first-slide {
+  background-image: -webkit-linear-gradient(#f9f7f8 8%, transparent 55%), url('../../assets/images/slider/slider-french.jpg');
+}
+
+.second-slide {
+  background-image: -webkit-linear-gradient(#f9f7f8 8%, transparent 55%), url('../../assets/images/slider/slider-croissant.jpg');
+}
+
+.third-slide {
+  background-image: -webkit-linear-gradient(#f9f7f8 8%, transparent 55%), url('../../assets/images/slider/slider-white.jpg');
+}
+
+.fourth-slide {
+  background-image: -webkit-linear-gradient(#f9f7f8 8%, transparent 55%), url('../../assets/images/slider/slider-bake.jpg');
+}
+
+.slider-overlay img {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 710px) {
+
+  .first-slide {
+    background-image: -webkit-linear-gradient(#f9f7f8 1%, transparent 55%), url('../../assets/images/slider/slider-french.jpg');
+  }
+
+  .second-slide {
+    background-image: -webkit-linear-gradient(#f9f7f8 1%, transparent 55%), url('../../assets/images/slider/slider-croissant.jpg');
+  }
+
+  .third-slide {
+    background-image: -webkit-linear-gradient(#f9f7f8 1%, transparent 55%), url('../../assets/images/slider/slider-white.jpg');
+  }
+
+  .fourth-slide {
+    background-image: -webkit-linear-gradient(#f9f7f8 1%, transparent 55%), url('../../assets/images/slider/slider-bake.jpg');
+  }
+}

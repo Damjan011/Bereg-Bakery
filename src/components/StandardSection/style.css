@@ -1,0 +1,129 @@
+.standard-main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.standard-inner {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.standard-image-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.standard-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.standard-content {
+  margin: 10px;
+  width: 50%;
+}
+
+.standard-divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 2px;
+  background-color: #ff6347;
+}
+
+.standard-title-area {
+
+}
+
+.standard-title {
+  color: white;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.standard-text {
+  color: white;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+}
+
+.standard-button {
+  margin-top: 15px;
+  width: 130px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: white;
+  border: 1px solid tomato;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.standard-button:hover {
+  color: #333;
+  background: tomato;
+  transition: all 0.2s ease;
+}
+
+/**/
+
+.standard-white {
+  background: #f9f9f9;
+}
+
+.standard-white .standard-title {
+  color: tomato;
+}
+
+.standard-white .standard-text {
+  color: #000;
+}
+
+.standard-white .standard-button {
+  color: #333;
+}
+
+.standard-white .standard-button:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .standard-inner {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .standard-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .standard-content {
+    width: 100%;
+    text-align: center;
+  }
+  .standard-image-wrapper {
+    width: 100%;
+  }
+  .standard-button-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .standard-title-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

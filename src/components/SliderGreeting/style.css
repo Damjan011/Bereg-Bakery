@@ -1,0 +1,53 @@
+.slider-greeting-main {
+  position: absolute;
+  top: 35vh;
+  left: 25vw;
+  z-index: 55;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transform-origin: 0% 0%;
+  transform: translate(-300%, 0);
+  padding: 20px;
+  border-radius: 3px;
+  background: rgb(41 40 40 / 60%);
+  /* transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
+}
+
+.slider-greeting-appear {
+  transform: translate(0, 0);
+  /* transition: transform 1.7s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
+  transition: transform 2s ease;
+}
+
+.slider-greeting-title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+.slider-greeting-text {
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  word-break: break-word;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.slider-greeting-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.greeting-button {
+  border: 1px solid white;
+  background: tomato;
+}
+
+.greeting-button:hover {
+  background: white;
+}

@@ -1,0 +1,50 @@
+.page-header {
+  height: 230px;
+  background-image: url('../../assets/images/Banner_Bakery_Bread.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+.page-subtitle {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@media only screen and (max-width: 710px) {
+  .page-header {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .page-title {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #000000;
+  }
+  
+  .page-subtitle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}

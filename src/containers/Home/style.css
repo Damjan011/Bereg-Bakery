@@ -1,0 +1,6 @@
+.home-main-container {
+  background: transparent;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}

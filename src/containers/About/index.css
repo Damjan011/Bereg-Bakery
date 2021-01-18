@@ -1,0 +1,22 @@
+.aboutUsBanner {
+    height: 230px;
+    background-image: url('../../assets/images/field/pexels-tomasz-filipek-1637261.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 710px) {
+  .aboutUsBanner {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
