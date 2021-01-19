@@ -1,26 +1,31 @@
 .slider-greeting-main {
   position: absolute;
   top: 35vh;
-  left: 25vw;
-  z-index: 55;
-  width: 300px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 800px;
   display: flex;
   flex-direction: column;
   transform-origin: 0% 0%;
   transform: translate(-300%, 0);
   padding: 20px;
-  border-radius: 3px;
-  background: rgb(41 40 40 / 60%);
+  /* background: rgb(41 40 40 / 60%); */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
 }
 
 .slider-greeting-appear {
   transform: translate(0, 0);
+  /* transition: transform 1.7s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
   transition: transform 2s ease;
 }
 
 .slider-greeting-title {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   text-shadow: 3px 3px 5px #000000;
 }
@@ -38,14 +43,122 @@
 .slider-greeting-buttons-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .greeting-button {
   border: 1px solid white;
   background: tomato;
+  text-decoration: none;
+  color: white;
+  margin-top: 35px;
+  width: 180px;
+  height: 45px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.standard-button:hover {
+  color: #333;
+  background: tomato;
+  transition: all 0.2s ease;
+}
+
+.greeting-button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.greeting-button:hover > a {
+  color: tomato;
 }
 
 .greeting-button:hover {
   background: white;
+}
+
+
+@media only screen and (max-width: 710px) {
+  .slider-greeting-main {
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    transform-origin: 0% 0%;
+    transform: translate(-300%, 0);
+    padding: 20px;
+    /* background: rgb(41 40 40 / 60%); */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
+  }
+  
+  .slider-greeting-appear {
+    transform: translate(0, 0);
+    /* transition: transform 1.7s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
+    transition: transform 2s ease;
+  }
+  
+  .slider-greeting-title {
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #000000;
+  }
+  
+  .slider-greeting-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    word-break: break-word;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .slider-greeting-buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .greeting-button {
+    border: 1px solid white;
+    background: tomato;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    width: 170px;
+    height: 40px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .standard-button:hover {
+    color: #333;
+    background: tomato;
+    transition: all 0.2s ease;
+  }
+  
+  .greeting-button > a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .greeting-button:hover > a {
+    color: tomato;
+  }
+  
+  .greeting-button:hover {
+    background: white;
+  }
 }

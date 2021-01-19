@@ -14,7 +14,7 @@ const iconBoxData = [
 const IconBoxesHomeSection = () => (
   <div className="shadow-icon-boxes">
     <div className="section-title">
-      <p>Dobrodosli</p>
+      <p>Добродошли</p>
     </div>
     <div className="title-divider"></div>
     <div className="section-subtitle">

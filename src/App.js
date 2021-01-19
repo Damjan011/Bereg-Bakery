@@ -214,7 +214,7 @@ const App = (props) => {
       </Switch>
       <Footer 
         address="Иве Андрића 2 A, Соколац"
-        email="pekarabereg@business.rs"
+        email="beregpekara@gmail.com"
         phone="+387/65-573-727"
       />
     </div>

@@ -42,7 +42,7 @@ const Contact = ({ closeResponsiveMenu }) => {
                 <img src={MailIcon} alt="Mail" className="contact-icon" />
               </div>
               <div className="contact-icon-box-text">
-                <p>pekarabereg@business.rs</p>
+                <p>beregpekara@gmail.com</p>
               </div>
             </div>
             <div className="contact-more-info">
