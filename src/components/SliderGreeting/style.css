@@ -11,12 +11,10 @@
   padding: 20px;
   border-radius: 3px;
   background: rgb(41 40 40 / 60%);
-  /* transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
 }
 
 .slider-greeting-appear {
   transform: translate(0, 0);
-  /* transition: transform 1.7s cubic-bezier(0.77, 0.2, 0.05, 1.0); */
   transition: transform 2s ease;
 }
 
