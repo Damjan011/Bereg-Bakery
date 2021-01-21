@@ -20,7 +20,7 @@ const IconBoxesHomeSection = () => (
     <div className="section-subtitle">
       <p>Porodicna tradicija, kvalitet, porudzbine,
         uvek na raspolaganjuPorodicna tradicija, kvalitet, porudzbine, uvek na raspolaganjuPorodicna tradicija, kvalitet,
-        porudzbine, uvek na raspolaganju
+        porudzbine
       </p>
     </div>
     <div className="shadow-icon-boxes-wrapper">
